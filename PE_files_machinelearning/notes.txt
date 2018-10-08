@@ -1,0 +1,8 @@
+label 0 = benign
+label 1,2,3,4 = malicious
+
+features extracted = 140 (excluding labels!)
+
+ben_*.csv files have 141 features, including labels
+extraction script must extract 140 total features
+
