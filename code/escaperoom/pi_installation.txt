@@ -1,0 +1,31 @@
+pi installation:
+
+wifi setup:
+1. install raspbian on sd card
+2. boot from sd, do normal install
+3. reboot
+4. sudo apt-get update
+5. sudo apt-get install hostapd
+6. sudo service ssh start
+7. winscp to transfer files:
+interfaces -> /etc/network/interfaces
+hostapd.conf -> /etc/hostapd/hostapd.conf #contains wifi AP name configuration
+hostapd -> /etc/default/hostapd
+8. sudo reboot
+9. check wifi
+
+setting up b0mb script and files:
+1. Copy b0mbcode.py and three mp3 files to /home/pi
+2. modify line: timer(50) in b0mbcode.py if minutes need to change from 50 to something else
+
+start b0mb script at boot:
+1. sudo crontab -e, use default editor
+2. add the following to the last line and save:
+@reboot /usr/bin/python /home/pi/b0mbcode.py
+
+Pi wiring and connections:
+Pinout: https://cdn.sparkfun.com/assets/learn_tutorials/4/2/4/header_pinout.jpg Numbers from Pin# Column are used in the code.
+Speakers are attached via 3.5mm jack.
+Buzzer is attached to Pin 39 (ground) and Pin 35. 
+Pins 36, 38, 40 are attached to ground. 
+See attached pictures and diagrams for more info.
