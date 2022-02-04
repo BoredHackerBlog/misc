@@ -1,0 +1,6 @@
+![code1](https://user-images.githubusercontent.com/38662926/152595996-c820cecf-0b7b-4690-9e5b-2b426a039b15.png)
+![mutexcall](https://user-images.githubusercontent.com/38662926/152596001-bec8d378-e159-4ed3-b594-45424ce80f02.png)
+![mutexstring](https://user-images.githubusercontent.com/38662926/152596005-fc4b0961-93ff-4490-93ee-165eb8a5cff8.png)
+![handles](https://user-images.githubusercontent.com/38662926/152596013-aea70303-a38e-4ed5-837d-48b20abb7b68.png)
+![normalexectuion](https://user-images.githubusercontent.com/38662926/152596020-586b7be1-73b5-4166-9a1f-c1205f3b590d.png)
+![noexecution](https://user-images.githubusercontent.com/38662926/152596025-bd6fb92a-a651-494a-8406-7f06bc632293.png)
